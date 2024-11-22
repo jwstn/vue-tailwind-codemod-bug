@@ -8,8 +8,8 @@ function foobar() {
 </script>
 
 <template>
-    <div class="h-dvh w-dvw flex items-center justify-center bg-slate-700">
-        <h1>Test</h1>
+    <div class="h-dvh w-dvw flex items-center justify-center bg-slate-700 flex-col gap-4">
+        <h1 class="text-3xl text-white">Test Input</h1>
         <Input @blur=foobar />
     </div>
 </template>
