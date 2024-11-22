@@ -2,7 +2,7 @@
 import Input from './components/Input.vue'
 
 function foobar() {
-    console.log('blur!')
+    console.log('blur-sm!')
 }
 
 </script>
